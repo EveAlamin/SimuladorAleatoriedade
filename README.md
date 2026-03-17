@@ -2,8 +2,6 @@
 
 Simulação computacional de um Gerador Quântico de Números Aleatórios (QRNG) baseado em sistemas fotônicos de Variáveis Contínuas (CV). A aleatoriedade é extraída das flutuações do vácuo quântico via Medição Homódina, utilizando o formalismo gaussiano do Strawberry Fields.
 
-> Trabalho vinculado ao artigo *"Aleatoriedade Quântica em Sistemas Fotônicos: da Simulação Computacional à Criptografia Moderna"* — WTDCC SBC 2025 — UFU/FACOM.
-
 ---
 
 ## Resultados
@@ -59,7 +57,7 @@ pip install strawberryfields numpy matplotlib scipy
 
 ## Como rodar
 ```bash
-python qrng_simulacao.py
+python main.py
 ```
 
 Serão gerados automaticamente:
